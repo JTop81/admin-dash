@@ -1,0 +1,6 @@
+npm i -g nodemon
+npm i express body-parser cors dotenv helmet morgan mongoose nodemon
+npm i express body-parser bcrypt cors dotenv gridfs-stream helmet morgan jsonwebtoken mongoose
+npm config set legacy-peer-deps true -> npm install country-iso-2-to-3
+npm install multer-gridfs-storage --save
+node --trace-deprecation

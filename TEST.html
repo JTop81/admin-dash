@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=320">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+        <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+        <!-- Google Tag Manager -->
+        <script data-skip-moving="true">
+            (function(w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0]
+                  , j = d.createElement(s)
+                  , dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            }
+            )(window, document, 'script', 'dataLayer', 'GTM-PSXP5S4');
+        </script>
+        <!-- End Google Tag Manager -->
+        <meta name="robots" content="noindex, nofollow, noarchive, nocache">
+        <meta property="og:title" content=""/>
+        <meta property="og:description" content=""/>
+        <meta property="og:image" content="https://www.bitrix24.net/bitrix/templates/new/images/b24_screen_en.png"/>
+        <meta property="og:image:width" content=""/>
+        <meta property="og:image:height" content=""/>
+        <meta property="og:url" content="https://www.bitrix24.net/"/>
+        <meta name="twitter:title" content="">
+        <meta name="twitter:description" content="">
+        <meta name="twitter:image" content="https://www.bitrix24.net/bitrix/templates/new/images/b24_screen_en.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="https://www.bitrix24.net/">
+        <link href="/bitrix/js/b24network/css/b24network.css?1423043194336" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/js/ui/design-tokens/dist/compatibility.min.css?1663688634397" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?16636886342320" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/js/main/popup/dist/main.popup.bundle.min.css?166248032824774" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/cache/css/s1/new/kernel_ui_notification/kernel_ui_notification_v1.css?16817444981958" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/js/ui/icons/base/ui.icons.base.min.css?16624804111203" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/js/ui/icons/b24/ui.icons.b24.min.css?16624804112125" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/js/ui/icons/disk/ui.icons.disk.min.css?16624799772682" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/js/ui/icons/service/ui.icons.service.min.css?166248042370073" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/js/ui/buttons/dist/ui.buttons.bundle.min.css?166368863424744" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/js/ui/fonts/montserrat/ui.font.montserrat.min.css?16636886342209" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/js/ui/fonts/roboto/ui.font.roboto.min.css?16636886344037" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/js/b24network/css/oauth_sbbol.min.css?1573212758226" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/js/ui/alerts/src/ui.alert.css?166368863429751" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/js/b24network/component/message/dist/message.bundle.min.css?1663668681196" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/js/main/phonenumber/css/phonenumber.min.css?166247998436251" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/js/main/loader/dist/loader.bundle.min.css?15676732142029" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/cache/css/s1/new/kernel_sidepanel/kernel_sidepanel_v1.css?16817444988216" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/js/main/helper/css/helper.min.css?15676732141174" type="text/css" rel="stylesheet"/>
+        <link href="/bitrix/cache/css/s1/new/template_5566edfe406ded0fa95e3bc3e7f5b7be/template_5566edfe406ded0fa95e3bc3e7f5b7be_v1.css?1681744499103921" type="text/css" data-template-style="true" rel="stylesheet"/>
+        <script type="text/javascript">
+            if (!window.BX)
+                window.BX = {};
+            if (!window.BX.message)
+                window.BX.message = function(mess) {
+                    if (typeof mess === 'object') {
+                        for (let i in mess) {
+                            BX.message[i] = mess[i];
+                        }
+                        return true;
+                    }
+                }
+                ;
+        </script>
+        <script type="text/javascript">
+            (window.BX || top.BX).message({
+                'pull_server_enabled': 'Y',
+                'pull_config_timestamp': '0',
+                'pull_guest_mode': 'N',
+                'pull_guest_user_id': '0'
+            });
+            (window.BX || top.BX).message({
+                'PULL_OLD_REVISION': 'This page must be reloaded to ensure proper site functioning and to continue work.'
+            });
+        </script>
+        <script type="text/javascript">
+            (window.BX || top.BX).message({
+                'JS_CORE_LOADING': 'Đang tải...',
+                'JS_CORE_WINDOW_CLOSE': 'Đóng',
+                'JS_CORE_WINDOW_EXPAND': 'Mở rộng',
+                'JS_CORE_WINDOW_NARROW': 'Khôi phục',
+                'JS_CORE_WINDOW_SAVE': 'Lưu',
+                'JS_CORE_WINDOW_CANCEL': 'Hủy bỏ',
+                'JS_CORE_H': 'h',
+                'JS_CORE_M': 'm',
+                'JS_CORE_S': 's',
+                'JS_CORE_NO_DATA': '- Không có dữ liệu -',
+                'JSADM_AI_HIDE_EXTRA': 'Ẩn các mục phụ',
+                'JSADM_AI_ALL_NOTIF': 'Tất cả các thông báo',
+                'JSADM_AUTH_REQ': 'Yêu cầu xác nhận!',
+                'JS_CORE_WINDOW_AUTH': 'Đăng nhập',
+                'JS_CORE_IMAGE_FULL': 'Kích cỡ đầy đủ',
+                'JS_CORE_WINDOW_CONTINUE': 'Tiếp tục'
+            });
+        </script>
+        <script type="text/javascript" src="/bitrix/js/main/core/core.min.js?1662480328216421"></script>
+        <script>
+            BX.setJSList(['/bitrix/js/main/core/core_ajax.js', '/bitrix/js/main/core/core_promise.js', '/bitrix/js/main/polyfill/promise/js/promise.js', '/bitrix/js/main/loadext/loadext.js', '/bitrix/js/main/loadext/extension.js', '/bitrix/js/main/polyfill/promise/js/promise.js', '/bitrix/js/main/polyfill/find/js/find.js', '/bitrix/js/main/polyfill/includes/js/includes.js', '/bitrix/js/main/polyfill/matches/js/matches.js', '/bitrix/js/ui/polyfill/closest/js/closest.js', '/bitrix/js/main/polyfill/fill/main.polyfill.fill.js', '/bitrix/js/main/polyfill/find/js/find.js', '/bitrix/js/main/polyfill/matches/js/matches.js', '/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js', '/bitrix/js/main/core/core.js', '/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js', '/bitrix/js/main/lazyload/dist/lazyload.bundle.js', '/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js', '/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+            BX.setCSSList(['/bitrix/js/main/lazyload/dist/lazyload.bundle.css', '/bitrix/js/main/parambag/dist/parambag.bundle.css']);
+        </script>
+        <script type="text/javascript">
+            (window.BX || top.BX).message({
+                'B24NET_INVITE_TITLE': 'Gửi lời mời',
+                'B24NET_INVITE_TEXT': 'Gửi liên kết này đến #NAME# để mời họ:',
+                'B24NET_INVITE_SEND': 'Gửi',
+                'B24NET_INVITE_SENT': 'Lời mời đã được gửi',
+                'B24NET_INVITE_ERROR': 'Lỗi gửi lời mời',
+                'B24NET_SOC_WIZARD': 'Thêm bạn của bạn <br>bitrix24.network',
+                'B24NET_EMAIL_EMPTY_ERROR': 'Không hiển địa chỉ email',
+                'B24NET_EMAIL_INCORRECT_ERROR': 'Email không hợp lệ'
+            });
+        </script>
+        <script type="text/javascript">
+            (window.BX || top.BX).message({
+                'UI_BUTTONS_SAVE_BTN_TEXT': 'Lưu',
+                'UI_BUTTONS_CREATE_BTN_TEXT': 'Tạo',
+                'UI_BUTTONS_ADD_BTN_TEXT': 'Thêm',
+                'UI_BUTTONS_SEND_BTN_TEXT': 'Gửi',
+                'UI_BUTTONS_CANCEL_BTN_TEXT': 'Hủy bỏ',
+                'UI_BUTTONS_CLOSE_BTN_TEXT': 'Đóng',
+                'UI_BUTTONS_APPLY_BTN_TEXT': 'Áp dụng'
+            });
+        </script>
+        <script type="text/javascript">
+            (window.BX || top.BX).message({
+                'B24NET_SOC_NETWORK_NAME': 'Bitrix24',
+                'B24NET_SOC_NETWORK_SEPARATOR': 'hoặc'
+            });
+        </script>
+        <script type="text/javascript">
+            (window.BX || top.BX).message({
+                'phone_number_default_country': 'CA',
+                'user_default_country': ''
+            });
+        </script>
+        <script type="text/javascript">
+            (window.BX || top.BX).message({
+                'B24NET_INPUT_TITLE': 'Nhập số điện thoại hoặc email',
+                'B24NET_INPUT_TITLE_EMAIL': 'Nhập địa chỉ e-mail'
+            });
+        </script>
+        <script type="text/javascript">
+            (window.BX || top.BX).message({
+                'B24NET_PHONECONFIRM_COUNTDOWN': 'bạn có thể gửi lại mã trong #COUNTDOWN#',
+                'B24NET_PHONECONFIRM_INPUT_TITLE': 'Nhập mã xác nhận (6 ký tự) để tiếp tục',
+                'B24NET_PHONECONFIRM_REPEAT': 'Gửi lại SMS',
+                'B24NET_PHONECONFIRM_S': '#LEFT# giây',
+                'B24NET_PHONECONFIRM_TITLE': 'Chúng tôi đã gửi một mã xác nhận đến #PHONE#'
+            });
+        </script>
+        <script type="text/javascript">
+            (window.BX || top.BX).message({
+                'B24NET_EMAILCONFIRM_COUNTDOWN': 'bạn có thể gửi lại mã trong #COUNTDOWN#',
+                'B24NET_EMAILCONFIRM_MESSAGE': 'Email đã được gửi đi. Vui lòng kiểm tra email của bạn và nhấp vào liên kết trong email',
+                'B24NET_EMAILCONFIRM_REPEAT': 'Gửi lại email xác nhận',
+                'B24NET_EMAILCONFIRM_S': '#LEFT# giây',
+                'B24NET_EMAILCONFIRM_SUBTITLE': 'Vui lòng kiểm tra email của bạn và nhấp vào liên kết trong email',
+                'B24NET_EMAILCONFIRM_TITLE': 'Bạn phải xác nhận địa chỉ email <span>#EMAIL#<\/span> để đăng nhập vào Bitrix24 của mình'
+            });
+        </script>
+        <script type="text/javascript">
+            (window.BX || top.BX).message({
+                'B24NET_QRCODE_GO_BACK': 'Quay lại',
+                'B24NET_QRCODE_LOGIN_BY_QRCODE': 'Đăng nhập bằng mã QR',
+                'B24NET_QRCODE_TITLE1': 'Đăng nhập bằng mã QR',
+                'B24NET_QRCODE_TITLE2': 'Quét mã này với ứng dụng di động Bitrix24, hoặc sử dụng camera điện thoại của bạn'
+            });
+        </script>
+        <script type="text/javascript">
+            (window.BX || top.BX).message({
+                'AUTH_TITLE_CHANGE_PASSWORD': 'Thay đổi Mật khẩu'
+            });
+            (window.BX || top.BX).message({
+                'B24NET_AUTH_AGREE_NEWS_LINK': 'Tôi đồng ý nhận email chứa thông tin quảng bá, tin tức và cập nhật theo <a href=\"#URL_EMAIL#\" target=\"_blank\">Điều khoản Sử dụng<\/a>',
+                'B24NET_AUTH_AGREE_TERMS': 'Thông qua việc sử dụng Bitrix24, bạn xác nhận rằng mình chấp nhận <a href=\"#URL_TERMS#\" target=\"_blank\">Các Điều khoản Sử dụng<\/a> và <a href=\"#URL_PRIVACY#\" target=\"_blank\">Chính sách Quyền Riêng tư<\/a>.',
+                'B24NET_AUTH_AGREE_WEBINAR': 'Tôi muốn nhận thư mời tham gia các hội thảo web miễn phí',
+                'B24NET_AUTH_CAPTCHA_TITLE': 'Nhập các ký tự mà bạn nhìn thấy trên hình ảnh',
+                'B24NET_AUTH_CHANGE_ERR_PASS': 'Mật khẩu không khớp.',
+                'B24NET_AUTH_CHANGE_PASSWORD': 'Nhập mật khẩu',
+                'B24NET_AUTH_CHANGE_PASSWORD_R': 'Xác nhận mật khẩu',
+                'B24NET_AUTH_CHANGE_SUBMIT': 'Thay đổi mật khẩu',
+                'B24NET_AUTH_CHANGE_SUBTITLE': 'Vui lòng nhập mật khẩu mới',
+                'B24NET_AUTH_CHANGE_SUBTITLE_P': 'mật khẩu đăng nhập',
+                'B24NET_AUTH_CHANGE_TITLE': 'Cảm ơn bạn! Email #LOGIN# của bạn đã được xác nhận.',
+                'B24NET_AUTH_CHANGE_TITLE_PHONE': 'Tên đăng nhập Bitrix24 của bạn là số điện thoại #LOGIN# của bạn',
+                'B24NET_AUTH_FORGOT': 'Quên mật khẩu?',
+                'B24NET_AUTH_FORGOT_LOGINLIST_TITLE': 'Chọn một tài khoản',
+                'B24NET_AUTH_LIST_OTHER': 'Đổi người dùng',
+                'B24NET_AUTH_LIST_SELECT': 'Chọn một tài khoản hoặc đổi người dùng',
+                'B24NET_AUTH_NONAME': '<no name>',
+                'B24NET_AUTH_NOTFOUND_LOGIN': 'Không thể tìm thấy người dùng có email này',
+                'B24NET_AUTH_NOTFOUND_PHONE': 'Không thể tìm thấy người dùng có số điện thoại này',
+                'B24NET_AUTH_PASSWORD_REMEMBER': 'Nhớ tôi',
+                'B24NET_AUTH_PASSWORD_TITLE': 'Nhập mật khẩu của bạn để xác nhận tài khoản này thuộc về bạn',
+                'B24NET_AUTH_SET_SOCSERV_PASSWORD': 'This email address is linked to a social profile; however no password was assigned to it. Click \"Forgot Password\" to receive a password recovery link to this email address.',
+                'B24NET_AUTH_SET_SOCSERV_PASSWORD2': 'This email address is linked to your social network profile; however no password was assigned to it. Click \"Forgot Password\" to receive a password recovery link to this email address. Follow the link and create a new password.',
+                'B24NET_AUTH_SUBMIT': 'Tiếp theo',
+                'B24NET_AUTH_SUBMIT_AUTH': 'Đăng nhập',
+                'B24NET_AUTH_TITLE': 'Tên đăng nhập Bitrix24',
+                'B24NET_AUTH_USE_SOC': 'Đăng nhập với',
+                'B24NET_SEPARATOR': 'hoặc'
+            });
+        </script>
+        <script type="text/javascript">
+            (window.BX || top.BX).message({
+                'CORE_CLIPBOARD_COPY_SUCCESS': 'Sao chép thực hiện',
+                'CORE_CLIPBOARD_COPY_FAILURE': 'Sao chép thất bại'
+            });
+        </script>
+        <script type="text/javascript">
+            (window.BX || top.BX).message({
+                'MAIN_SIDEPANEL_CLOSE': 'Đóng',
+                'MAIN_SIDEPANEL_PRINT': 'Print',
+                'MAIN_SIDEPANEL_NEW_WINDOW': 'Open in a new window',
+                'MAIN_SIDEPANEL_COPY_LINK': 'Copy link'
+            });
+        </script>
+        <script type="text/javascript">
+            (window.BX || top.BX).message({
+                'MAIN_HELPER_LOADER': 'Loading...',
+                'MAIN_HELPER_TITLE': 'Support'
+            });
+        </script>
+        <script type="text/javascript">
+            (window.BX || top.BX).message({
+                'LANGUAGE_ID': 'vn',
+                'FORMAT_DATE': 'DD.MM.YYYY',
+                'FORMAT_DATETIME': 'DD.MM.YYYY HH:MI:SS',
+                'COOKIE_PREFIX': 'BITRIX_SM',
+                'SERVER_TZ_OFFSET': '10800',
+                'UTF_MODE': 'Y',
+                'SITE_ID': 's1',
+                'SITE_DIR': '/',
+                'USER_ID': '',
+                'SERVER_TIME': '1684609268',
+                'USER_TZ_OFFSET': '14400',
+                'USER_TZ_AUTO': 'Y',
+                'bitrix_sessid': '6d4ffd644a3ed54a38e118c973088423'
+            });
+        </script>
+        <script type="text/javascript" src="/bitrix/cache/js/s1/new/kernel_main/kernel_main_v1.js?168174450215593"></script>
+        <script type="text/javascript" src="/bitrix/js/pull/protobuf/protobuf.min.js?160305079776433"></script>
+        <script type="text/javascript" src="/bitrix/js/pull/protobuf/model.min.js?160305079714190"></script>
+        <script type="text/javascript" src="/bitrix/js/main/core/core_promise.min.js?15676731232490"></script>
+        <script type="text/javascript" src="/bitrix/js/rest/client/rest.client.min.js?16030508189240"></script>
+        <script type="text/javascript" src="/bitrix/js/pull/client/pull.client.min.js?166247997344545"></script>
+        <script type="text/javascript" src="/bitrix/js/b24network/b24network.min.js?158772320413077"></script>
+        <script type="text/javascript" src="/bitrix/js/main/popup/dist/main.popup.bundle.min.js?166248032864063"></script>
+        <script type="text/javascript" src="/bitrix/cache/js/s1/new/kernel_main_polyfill_customevent/kernel_main_polyfill_customevent_v1.js?16817445021051"></script>
+        <script type="text/javascript" src="/bitrix/cache/js/s1/new/kernel_ui_notification/kernel_ui_notification_v1.js?168174450217558"></script>
+        <script type="text/javascript" src="/bitrix/js/b24network/component/dist/component.bundle.js?166850644420060"></script>
+        <script type="text/javascript" src="/bitrix/js/ui/buttons/dist/ui.buttons.bundle.min.js?166368863441393"></script>
+        <script type="text/javascript" src="/bitrix/js/ui/mustache/mustache.min.js?15283998095835"></script>
+        <script type="text/javascript" src="/bitrix/js/ui/alerts/dist/alert.bundle.min.js?16624804126252"></script>
+        <script type="text/javascript" src="/bitrix/js/b24network/component/message/dist/message.bundle.js?16481202325095"></script>
+        <script type="text/javascript" src="/bitrix/js/b24network/component/socialservices/dist/socialservices.bundle.js?16490818726781"></script>
+        <script type="text/javascript" src="/bitrix/js/main/phonenumber/phonenumber.min.js?166247998428904"></script>
+        <script type="text/javascript" src="/bitrix/js/b24network/component/logininput/dist/logininput.bundle.js?16649673097046"></script>
+        <script type="text/javascript" src="/bitrix/js/b24network/component/phoneconfirm/dist/phoneconfirm.bundle.js?16488077119823"></script>
+        <script type="text/javascript" src="/bitrix/js/b24network/component/emailconfirm/dist/emailconfirm.bundle.js?15894362597440"></script>
+        <script type="text/javascript" src="/bitrix/js/main/qrcode/qrcode.min.js?143177520620123"></script>
+        <script type="text/javascript" src="/bitrix/js/main/loader/dist/loader.bundle.min.js?16158848583969"></script>
+        <script type="text/javascript" src="/bitrix/js/b24network/component/qrcode/dist/qrcode.bundle.js?164908187210499"></script>
+        <script type="text/javascript" src="/bitrix/js/b24network/component/authorize/dist/authorize.bundle.js?164908187290487"></script>
+        <script type="text/javascript" src="/bitrix/js/b24network/component/useractions/dist/useractions.bundle.js?16817444057774"></script>
+        <script type="text/javascript" src="/bitrix/js/main/core/core_clipboard.min.js?16624803282246"></script>
+        <script type="text/javascript" src="/bitrix/cache/js/s1/new/kernel_sidepanel/kernel_sidepanel_v1.js?168174450250708"></script>
+        <script type="text/javascript" src="/bitrix/js/main/helper/helper.min.js?16280093795600"></script>
+        <script type="text/javascript">
+            BX.setJSList(['/bitrix/js/main/core/core_timer.js', '/bitrix/js/main/core/core_fx.js', '/bitrix/js/main/pageobject/pageobject.js', '/bitrix/js/main/polyfill/customevent/main.polyfill.customevent.js', '/bitrix/js/ui/notification/ui.notification.balloon.js', '/bitrix/js/ui/notification/ui.notification.stack.js', '/bitrix/js/ui/notification/ui.notification.center.js', '/bitrix/js/main/sidepanel/manager.js', '/bitrix/js/main/sidepanel/slider.js']);
+        </script>
+        <script type="text/javascript">
+            BX.setCSSList(['/bitrix/js/ui/notification/ui.notification.css', '/bitrix/js/main/sidepanel/css/sidepanel.css', '/bitrix/templates/new/template_styles.css']);
+        </script>
+        <script type="text/javascript">
+            var bxDate = new Date();
+            document.cookie = "BITRIX_SM_TIME_ZONE=" + bxDate.getTimezoneOffset() + "; path=/; expires=Wed, 01 May 2024 00:00:00 +0300"
+        </script>
+        <script type="text/javascript">
+            var _ba = _ba || [];
+            _ba.push(["aid", "3b33ffbe22d842a186f2cab76bf7921a"]);
+            _ba.push(["host", "www.bitrix24.net"]);
+            (function() {
+                var ba = document.createElement("script");
+                ba.type = "text/javascript";
+                ba.async = true;
+                ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(ba, s);
+            }
+            )();
+        </script>
+        <title></title>
+        <!--link href="/bitrix/templates/new/buttons.css" rel="stylesheet" media="all" /-->
+    </head>
+    <body class="home vn">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSXP5S4" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <div class="b24network-auth" id="b24network-auth">
+            <div class="b24-network-auth-cover">
+                <div class="b24-network-auth-cover-top">
+                    <div class="b24-network-auth-cover-img-block">
+                        <img src="/bitrix/templates/new/images/bitrix24-logo-en.svg" alt="" class="b24-network-auth-cover-img">
+                    </div>
+                    <div class="b24-network-auth-cover-back">
+                        <a href="https://www.bitrix24.vn" class="b24-network-auth-cover-back-link">quay lại website</a>
+                    </div>
+                </div>
+                <div class="b24-network-auth-cover-header">
+                    <div class="b24-network-auth-cover-header">
+                        <div class="b24-network-auth-cover-title">Your company. United.</div>
+                        <div class="b24-network-auth-cover-subtitle">
+                            <span class="b24-network-auth-cover-subtitle-text">Free.</span>
+                            <span class="b24-network-auth-cover-subtitle-text">Unlimited.</span>
+                            <span class="b24-network-auth-cover-subtitle-text">Online.</span>
+                        </div>
+                        <br>
+                        <div class="b24-network-auth-cover-subtitle">
+                            <span class="b24-network-auth-cover-subtitle-text" style="font-size: 26px; color: #07596D;">Đăng ký ngay hôm nay và nhận gói miễn phí vĩnh viễn với số lượng người dùng không giới hạn</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="b24-network-auth-cloud-block">
+                    <div class="b24-network-auth-cloud b24-network-auth-cloud-lg"></div>
+                    <div class="b24-network-auth-cloud b24-network-auth-cloud-sm"></div>
+                    <div class="b24-network-auth-cloud b24-network-auth-cloud-md"></div>
+                    <div class="b24-network-auth-cloud b24-network-auth-cloud-fill"></div>
+                </div>
+            </div>
+            <div class="b24-network-auth-form">
+                <div class="b24-network-auth-form-wrap">
+                    <div class="b24-network-auth-form-inner">
+                        <div id="authorize-layout"></div>
+                        <script>
+                            'use strict';
+                            BX.Network.Analytics.create({
+                                'options': {
+                                    'isEnabled': true
+                                },
+                                'context': {
+                                    'sessionId': 'o6s5aeejt30givi4',
+                                    'userId': '',
+                                    'authType': '',
+                                    'authSubType': '',
+                                    'startPoint': 'start_portal_auth_begin',
+                                    'portalName': 'www.bitrix24.vn'
+                                }
+                            });
+
+                            var rootComponent = new BX.Network.Authorize({
+                                message: {
+                                    text: 'Vui lòng đăng nhập sử dụng tên đăng nhập và mật khẩu của bạn (hoặc sử dụng đăng nhập qua mạng xã hội) để truy cập www.bitrix24.vn.',
+                                    type: BX.Network.MessageType.TYPE_OK
+                                },
+                                phoneEnabled: true,
+                                loginHistory: [],
+                                socialServices: [{
+                                    'ID': 'Facebook',
+                                    'ICON': 'facebook',
+                                    'NAME': 'Facebook',
+                                    'ACTION': 'BX.util.popup(\'https://www.facebook.com/dialog/oauth?client_id=751257608227496&redirect_uri=https%3A%2F%2Fwww.bitrix24.net%2Fbitrix%2Ftools%2Foauth%2Ffacebook.php&scope=email&display=popup&state=site_id%3Ds1%26backurl%3D%252Foauth%252Fauthorize%252F%253Fcheck_key%253Dfd858cc4cd69c658fcb3367c29b3e800%2526user_lang%253Dvn%2526client_id%253Dsite.5c20a2f35070f2.77156209%2526redirect_uri%253Dhttps%25253A%25252F%25252Fwww.bitrix24.vn%25252Fauth%25252F%25253Fauth_service_id%25253DBitrix24Net%2526scope%253Dauth%25252Cclient%2526response_type%253Dcode%2526mode%253Dpage%2526state%253Dsite_id%25253Dvn%252526backurl%25253D%2525252Fauth%2525252F%2525253Fcheck_key%2525253D4b4df423b6636311fe9bc23330f47f1a%252526mode%25253Dpage%26redirect_url%3D%252Foauth%252Fauthorize%252F%253Fuser_lang%253Dvn%2526client_id%253Dsite.5c20a2f35070f2.77156209%2526redirect_uri%253Dhttps%25253A%25252F%25252Fwww.bitrix24.vn%25252Fauth%25252F%25253Fauth_service_id%25253DBitrix24Net%2526scope%253Dauth%25252Cclient%2526response_type%253Dcode%2526mode%253Dpage%2526state%253Dsite_id%25253Dvn%252526backurl%25253D%2525252Fauth%2525252F%2525253Fcheck_key%2525253D4b4df423b6636311fe9bc23330f47f1a%252526mode%25253Dpage\', 680, 600)',
+                                    'SHOW_NOTIFICATION': false
+                                }, {
+                                    'ID': 'GoogleOAuth',
+                                    'ICON': 'google',
+                                    'NAME': 'Google',
+                                    'ACTION': 'BX.util.popup(\'https://accounts.google.com/o/oauth2/auth?client_id=999824014651.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.bitrix24.net%2Fbitrix%2Ftools%2Foauth%2Fgoogle.php&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&response_type=code&access_type=offline&state=provider%3DGoogleOAuth%26site_id%3Ds1%26backurl%3D%252Foauth%252Fauthorize%252F%253Fcheck_key%253Dfd858cc4cd69c658fcb3367c29b3e800%2526user_lang%253Dvn%2526client_id%253Dsite.5c20a2f35070f2.77156209%2526redirect_uri%253Dhttps%25253A%25252F%25252Fwww.bitrix24.vn%25252Fauth%25252F%25253Fauth_service_id%25253DBitrix24Net%2526scope%253Dauth%25252Cclient%2526response_type%253Dcode%2526mode%253Dpage%2526state%253Dsite_id%25253Dvn%252526backurl%25253D%2525252Fauth%2525252F%2525253Fcheck_key%2525253D4b4df423b6636311fe9bc23330f47f1a%252526mode%25253Dpage%26mode%3Dopener%26redirect_url%3D%252Foauth%252Fauthorize%252F%253Fuser_lang%253Dvn%2526client_id%253Dsite.5c20a2f35070f2.77156209%2526redirect_uri%253Dhttps%25253A%25252F%25252Fwww.bitrix24.vn%25252Fauth%25252F%25253Fauth_service_id%25253DBitrix24Net%2526scope%253Dauth%25252Cclient%2526response_type%253Dcode%2526mode%253Dpage%2526state%253Dsite_id%25253Dvn%252526backurl%25253D%2525252Fauth%2525252F%2525253Fcheck_key%2525253D4b4df423b6636311fe9bc23330f47f1a%252526mode%25253Dpage&key=\', 580, 400)',
+                                    'SHOW_NOTIFICATION': false
+                                }, {
+                                    'ID': 'apple',
+                                    'ICON': 'apple',
+                                    'NAME': 'Apple Sign In',
+                                    'ACTION': 'top.location.href = \'/bitrix/services/main/ajax.php?action=socialservices.authflow.signinapple&SITE_ID=s1&url=https%3A%2F%2Fappleid.apple.com%2Fauth%2Fauthorize%3Fclient_id%3Dcom.bitrixsoft.signin%26redirect_uri%3Dhttps%253A%252F%252Fwww.bitrix24.net%252Fbitrix%252Ftools%252Foauth%252Fapple.php%26response_type%3Dcode%26scope%3Dname+email%26response_mode%3Dform_post%26state%3Dsite_id%253Ds1%2526backurl%253D%25252Foauth%25252Fauthorize%25252F%25253Fcheck_key%25253Dfd858cc4cd69c658fcb3367c29b3e800%252526user_lang%25253Dvn%252526client_id%25253Dsite.5c20a2f35070f2.77156209%252526redirect_uri%25253Dhttps%2525253A%2525252F%2525252Fwww.bitrix24.vn%2525252Fauth%2525252F%2525253Fauth_service_id%2525253DBitrix24Net%252526scope%25253Dauth%2525252Cclient%252526response_type%25253Dcode%252526mode%25253Dpage%252526state%25253Dsite_id%2525253Dvn%25252526backurl%2525253D%252525252Fauth%252525252F%252525253Fcheck_key%252525253D4b4df423b6636311fe9bc23330f47f1a%25252526mode%2525253Dpage%2526redirect_url%253D%25252Foauth%25252Fauthorize%25252F%25253Fuser_lang%25253Dvn%252526client_id%25253Dsite.5c20a2f35070f2.77156209%252526redirect_uri%25253Dhttps%2525253A%2525252F%2525252Fwww.bitrix24.vn%2525252Fauth%2525252F%2525253Fauth_service_id%2525253DBitrix24Net%252526scope%25253Dauth%2525252Cclient%252526response_type%25253Dcode%252526mode%25253Dpage%252526state%25253Dsite_id%2525253Dvn%25252526backurl%2525253D%252525252Fauth%252525252F%252525253Fcheck_key%252525253D4b4df423b6636311fe9bc23330f47f1a%25252526mode%2525253Dpage\'',
+                                    'SHOW_NOTIFICATION': false
+                                }, {
+                                    'ID': 'Office365',
+                                    'ICON': 'office365',
+                                    'NAME': 'Office365',
+                                    'ACTION': 'BX.util.popup(\'https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=786d7aab-1054-4475-8ec7-d050ffe38ec6&redirect_uri=https%3A%2F%2Fwww.bitrix24.net%2Fbitrix%2Ftools%2Foauth%2Foffice365.php&response_type=code&scope=User.Read%20offline_access&prompt=select_account&state=site_id%3Ds1%26backurl%3D%252Foauth%252Fauthorize%252F%253Fcheck_key%253Dfd858cc4cd69c658fcb3367c29b3e800%2526user_lang%253Dvn%2526client_id%253Dsite.5c20a2f35070f2.77156209%2526redirect_uri%253Dhttps%25253A%25252F%25252Fwww.bitrix24.vn%25252Fauth%25252F%25253Fauth_service_id%25253DBitrix24Net%2526scope%253Dauth%25252Cclient%2526response_type%253Dcode%2526mode%253Dpage%2526state%253Dsite_id%25253Dvn%252526backurl%25253D%2525252Fauth%2525252F%2525253Fcheck_key%2525253D4b4df423b6636311fe9bc23330f47f1a%252526mode%25253Dpage%26redirect_url%3D%252Foauth%252Fauthorize%252F%253Fuser_lang%253Dvn%2526client_id%253Dsite.5c20a2f35070f2.77156209%2526redirect_uri%253Dhttps%25253A%25252F%25252Fwww.bitrix24.vn%25252Fauth%25252F%25253Fauth_service_id%25253DBitrix24Net%2526scope%253Dauth%25252Cclient%2526response_type%253Dcode%2526mode%253Dpage%2526state%253Dsite_id%25253Dvn%252526backurl%25253D%2525252Fauth%2525252F%2525253Fcheck_key%2525253D4b4df423b6636311fe9bc23330f47f1a%252526mode%25253Dpage%26mode%3Dopener\', 580, 400)',
+                                    'SHOW_NOTIFICATION': false
+                                }, {
+                                    'ID': 'LiveIDOAuth',
+                                    'ICON': 'liveid',
+                                    'NAME': 'LiveID',
+                                    'ACTION': 'BX.util.popup(\'https://login.live.com/oauth20_authorize.srf?client_id=000000004C22070B&redirect_uri=https%3A%2F%2Fwww.bitrix24.net%2Fbitrix%2Ftools%2Foauth%2Fliveid.php&scope=wl.signin+wl.basic+wl.offline_access+wl.emails&response_type=code&state=site_id%3Ds1%26backurl%3D%252Foauth%252Fauthorize%252F%253Fcheck_key%253Dfd858cc4cd69c658fcb3367c29b3e800%2526user_lang%253Dvn%2526client_id%253Dsite.5c20a2f35070f2.77156209%2526redirect_uri%253Dhttps%25253A%25252F%25252Fwww.bitrix24.vn%25252Fauth%25252F%25253Fauth_service_id%25253DBitrix24Net%2526scope%253Dauth%25252Cclient%2526response_type%253Dcode%2526mode%253Dpage%2526state%253Dsite_id%25253Dvn%252526backurl%25253D%2525252Fauth%2525252F%2525253Fcheck_key%2525253D4b4df423b6636311fe9bc23330f47f1a%252526mode%25253Dpage%26redirect_url%3D%252Foauth%252Fauthorize%252F%253Fuser_lang%253Dvn%2526client_id%253Dsite.5c20a2f35070f2.77156209%2526redirect_uri%253Dhttps%25253A%25252F%25252Fwww.bitrix24.vn%25252Fauth%25252F%25253Fauth_service_id%25253DBitrix24Net%2526scope%253Dauth%25252Cclient%2526response_type%253Dcode%2526mode%253Dpage%2526state%253Dsite_id%25253Dvn%252526backurl%25253D%2525252Fauth%2525252F%2525253Fcheck_key%2525253D4b4df423b6636311fe9bc23330f47f1a%252526mode%25253Dpage%26mode%3Dopener\', 580, 400)',
+                                    'SHOW_NOTIFICATION': false
+                                }, {
+                                    'ID': 'Twitter',
+                                    'ICON': 'twitter',
+                                    'NAME': 'Twitter',
+                                    'ACTION': 'BX.util.popup(\'/bitrix/tools/oauth/twitter.php?check_key=fd858cc4cd69c658fcb3367c29b3e800&backurl=%252Foauth%252Fauthorize%252F%253Fuser_lang%253Dvn%2526client_id%253Dsite.5c20a2f35070f2.77156209%2526redirect_uri%253Dhttps%25253A%25252F%25252Fwww.bitrix24.vn%25252Fauth%25252F%25253Fauth_service_id%25253DBitrix24Net%2526scope%253Dauth%25252Cclient%2526response_type%253Dcode%2526mode%253Dpage%2526state%253Dsite_id%25253Dvn%252526backurl%25253D%2525252Fauth%2525252F%2525253Fcheck_key%2525253D4b4df423b6636311fe9bc23330f47f1a%252526mode%25253Dpage\', 800, 450)',
+                                    'SHOW_NOTIFICATION': false
+                                }, {
+                                    'ID': 'zoom',
+                                    'ICON': 'zoom',
+                                    'NAME': 'Zoom',
+                                    'ACTION': 'BX.util.popup(\'https://zoom.us/oauth/authorize?client_id=TcswkWrGQrA9xtw6Omtw&redirect_uri=https%3A%2F%2Fwww.bitrix24.net%2Fbitrix%2Ftools%2Foauth%2Fzoom.php&response_type=code&response_mode=form_post&state=c2l0ZV9pZD1zMSZiYWNrdXJsPSUyRm9hdXRoJTJGYXV0aG9yaXplJTJGJTNGY2hlY2tfa2V5JTNEZmQ4NThjYzRjZDY5YzY1OGZjYjMzNjdjMjliM2U4MDAlMjZ1c2VyX2xhbmclM0R2biUyNmNsaWVudF9pZCUzRHNpdGUuNWMyMGEyZjM1MDcwZjIuNzcxNTYyMDklMjZyZWRpcmVjdF91cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5iaXRyaXgyNC52biUyNTJGYXV0aCUyNTJGJTI1M0ZhdXRoX3NlcnZpY2VfaWQlMjUzREJpdHJpeDI0TmV0JTI2c2NvcGUlM0RhdXRoJTI1MkNjbGllbnQlMjZyZXNwb25zZV90eXBlJTNEY29kZSUyNm1vZGUlM0RwYWdlJTI2c3RhdGUlM0RzaXRlX2lkJTI1M0R2biUyNTI2YmFja3VybCUyNTNEJTI1MjUyRmF1dGglMjUyNTJGJTI1MjUzRmNoZWNrX2tleSUyNTI1M0Q0YjRkZjQyM2I2NjM2MzExZmU5YmMyMzMzMGY0N2YxYSUyNTI2bW9kZSUyNTNEcGFnZSZyZWRpcmVjdF91cmw9JTJGb2F1dGglMkZhdXRob3JpemUlMkYlM0Z1c2VyX2xhbmclM0R2biUyNmNsaWVudF9pZCUzRHNpdGUuNWMyMGEyZjM1MDcwZjIuNzcxNTYyMDklMjZyZWRpcmVjdF91cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5iaXRyaXgyNC52biUyNTJGYXV0aCUyNTJGJTI1M0ZhdXRoX3NlcnZpY2VfaWQlMjUzREJpdHJpeDI0TmV0JTI2c2NvcGUlM0RhdXRoJTI1MkNjbGllbnQlMjZyZXNwb25zZV90eXBlJTNEY29kZSUyNm1vZGUlM0RwYWdlJTI2c3RhdGUlM0RzaXRlX2lkJTI1M0R2biUyNTI2YmFja3VybCUyNTNEJTI1MjUyRmF1dGglMjUyNTJGJTI1MjUzRmNoZWNrX2tleSUyNTI1M0Q0YjRkZjQyM2I2NjM2MzExZmU5YmMyMzMzMGY0N2YxYSUyNTI2bW9kZSUyNTNEcGFnZQ\', 460, 420)',
+                                    'SHOW_NOTIFICATION': false
+                                }],
+                                defaultCountry: 'us',
+                                countryTopList: ['RU', 'US', 'DE', 'UA', 'MX', 'BR', 'IN', 'CN', 'CN', 'GB', 'KZ', 'BY', 'FR', 'PL', 'TR'],
+                                url: {
+                                    terms: '/terms/',
+                                    privacy: 'https://www.bitrix24.vn/privacy/',
+                                    email: '',
+                                },
+                                forgotPassword: {
+                                    captcha: {
+                                        enabled: false,
+                                        code: '',
+                                        url: ''
+                                    }
+                                },
+                                qrCode: {
+                                    'pullConfig': {
+                                        'server': {
+                                            'version': '4',
+                                            'server_enabled': true,
+                                            'mode': 'personal',
+                                            'long_polling': 'http://rtc-v2-de1.bitrix24.com/sub2/',
+                                            'long_pooling_secure': 'https://rtc-v2-de1.bitrix24.com/sub2/',
+                                            'websocket_enabled': true,
+                                            'websocket': 'ws://rtc-v2-de1.bitrix24.com/subws2/',
+                                            'websocket_secure': 'wss://rtc-v2-de1.bitrix24.com/subws2/',
+                                            'publish_enabled': true,
+                                            'publish': 'http://rtc-v2-de1.bitrix24.com/rest/',
+                                            'publish_secure': 'https://rtc-v2-de1.bitrix24.com/rest/',
+                                            'config_timestamp': '0'
+                                        },
+                                        'api': {
+                                            'revision_web': '19',
+                                            'revision_mobile': '3'
+                                        },
+                                        'channels': {
+                                            'private': {
+                                                'id': 'ee1fbcbcbe764576b3f93e474740e16e:1801e5d53e50e7981a1ae80afbbd0fce.d60a1c1fc28ed817635e4692614d7ad4ffb7332f',
+                                                'public_id': '1801e5d53e50e7981a1ae80afbbd0fce.5523b74838402b2d87ebf2815b3faa0305076dbd',
+                                                'start': '2023-05-20T22:01:08+03:00',
+                                                'end': '2024-05-19T22:01:08+03:00',
+                                                'type': 'private'
+                                            }
+                                        },
+                                        'publicChannels': false
+                                    },
+                                    'siteId': 's1',
+                                    'uniqueId': 'cloud_www',
+                                    'channelTag': 'oFpGNuIhemxSv5CE3ltAmNQg0IIO4sxg',
+                                    'allowRedirect': false
+                                },
+                                loader: new BX.Network.ComponentTransport()
+                            });
+
+                            rootComponent.appendTo(BX('authorize-layout'));
+                        </script>
+                    </div>
+                    <!--b24-network-auth-form-inner-->
+                    <div class="b24-network-auth-form-footer-block">
+                        <div class="b24-network-auth-form-footer">
+                            <a href="javascript:void(0)" onclick="BX.Helper.show('redirect=detail&code=7364673');return false;" class="b24-network-auth-form-link b24-network-auth-form-link-help b24-network-auth-form-link-underline">Cần giúp đỡ</a>
+                            <script>
+                                BX.Helper.init({
+                                    frameOpenUrl: 'https://helpdesk.bitrix24.com/widget2/?url=https%3A%2F%2Fwww.bitrix24.net%2Foauth%2Fauthorize%2F%3Fuser_lang%3Dvn%26client_id%3Dsite.5c20a2f35070f2.77156209%26redirect_uri%3Dhttps%253A%252F%252Fwww.bitrix24.vn%252Fauth%252F%253Fauth_service_id%253DBitrix24Net%26scope%3Dauth%252Cclient%26response_type%3Dcode%26mode%3Dpage%26state%3Dsite_id%253Dvn%2526backurl%253D%25252Fauth%25252F%25253Fcheck_key%25253D4b4df423b6636311fe9bc23330f47f1a%2526mode%253Dpage&action=open',
+                                    langId: 'vn'
+                                });
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <!--b24-network-auth-form-wrap-->
+            </div>
+            <!--b24-network-auth-form-->
+            <div class="b24-network-auth-cover-lang">
+                <div class="b24-network-auth-cover-lang-inner" id="language-selector">
+                    <span class="b24-network-auth-cover-lang-text">Tiếng Việt</span>
+                </div>
+            </div>
+        </div>
+        <!--b24network-auth-->
+        <script>
+            (function() {
+                BX.ready(function() {
+                    BX('b24network-auth').classList.add("b24network-auth-animate");
+
+                    var selector = BX('language-selector');
+                    BX.bind(selector, 'click', function() {
+                        BX.PopupMenu.show('lang-popup', selector, [{
+                            text: "English",
+                            onclick: function() {
+                                BX.B24Network.changeLanguage('en');
+                            }
+                        }, {
+                            text: "Deutsch",
+                            onclick: function() {
+                                BX.B24Network.changeLanguage('de');
+                            }
+                        }, {
+                            text: "Español",
+                            onclick: function() {
+                                BX.B24Network.changeLanguage('la');
+                            }
+                        }, {
+                            text: "Português (Brasileiro)",
+                            onclick: function() {
+                                BX.B24Network.changeLanguage('br');
+                            }
+                        }, {
+                            text: "Français",
+                            onclick: function() {
+                                BX.B24Network.changeLanguage('fr');
+                            }
+                        }, {
+                            text: "Italiano",
+                            onclick: function() {
+                                BX.B24Network.changeLanguage('it');
+                            }
+                        }, {
+                            text: "Polski",
+                            onclick: function() {
+                                BX.B24Network.changeLanguage('pl');
+                            }
+                        }, {
+                            text: "Русский",
+                            onclick: function() {
+                                BX.B24Network.changeLanguage('ru');
+                            }
+                        }, {
+                            text: "Українська",
+                            onclick: function() {
+                                BX.B24Network.changeLanguage('ua');
+                            }
+                        }, {
+                            text: "Türkçe",
+                            onclick: function() {
+                                BX.B24Network.changeLanguage('tr');
+                            }
+                        }, {
+                            text: "中文（简体）",
+                            onclick: function() {
+                                BX.B24Network.changeLanguage('sc');
+                            }
+                        }, {
+                            text: "中文（繁體）",
+                            onclick: function() {
+                                BX.B24Network.changeLanguage('tc');
+                            }
+                        }, {
+                            text: "日本語",
+                            onclick: function() {
+                                BX.B24Network.changeLanguage('ja');
+                            }
+                        }, {
+                            text: "Tiếng Việt",
+                            onclick: function() {
+                                BX.B24Network.changeLanguage('vn');
+                            }
+                        }, {
+                            text: "Bahasa Indonesia",
+                            onclick: function() {
+                                BX.B24Network.changeLanguage('id');
+                            }
+                        }, {
+                            text: "Bahasa Melayu",
+                            onclick: function() {
+                                BX.B24Network.changeLanguage('ms');
+                            }
+                        }, {
+                            text: "ภาษาไทย",
+                            onclick: function() {
+                                BX.B24Network.changeLanguage('th');
+                            }
+                        }, ], {
+                            offsetTop: 10,
+                            offsetLeft: 0,
+                            angle: {
+                                offset: 45
+                            },
+                            animationOptions: false,
+                            className: 'b24network-language-selector-popup',
+                            bindOptions: {
+                                position: 'top',
+                                forceTop: true
+                            }
+                        });
+                    });
+
+                });
+            }
+            )();
+        </script>
+    </body>
+</html>
+//ops!
